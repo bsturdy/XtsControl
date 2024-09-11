@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{46bc1a8e-e556-49ad-b470-22cd57fcf0b2}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	
+	XtsControl		: XtsProcessingUnitControl;
+	XtsAxes			: ARRAY [0..4] OF XtsAxis;
+	i				: BYTE;
+	State			: BYTE;
+	Test			: FB_EcMasterFrameStatistic;
+
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+Test(sNetID := '5.127.5.164.5.1', bExecute := TRUE);
+
+CASE State OF
+		
+	0:
+		IF XtsControl.Initialize() THEN
+			State := 1;
+		END_IF
+	
+	1:
+		XtsControl.CyclicUpdate(nXpu := 1);
+		
+		
+END_CASE
+
+
+]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="68" Count="0" />
+      <LineId Id="36" Count="0" />
+      <LineId Id="67" Count="0" />
+      <LineId Id="21" Count="0" />
+      <LineId Id="37" Count="0" />
+      <LineId Id="41" Count="3" />
+      <LineId Id="60" Count="0" />
+      <LineId Id="65" Count="0" />
+      <LineId Id="47" Count="0" />
+      <LineId Id="40" Count="0" />
+      <LineId Id="39" Count="0" />
+      <LineId Id="38" Count="0" />
+      <LineId Id="14" Count="1" />
+      <LineId Id="11" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

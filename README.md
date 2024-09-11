@@ -1,4 +1,4 @@
-# AxisControl
+# XtsTest
 
 ## What is this repository for? ##
 
