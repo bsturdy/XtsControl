@@ -6,13 +6,19 @@ VAR
 	
 	XtsPU			: XtsProcessingUnitControl;
 	XtsCA			: XtsCollisionAvoidanceControl;
-	XtsAxes			: ARRAY [0..4] OF XtsAxisControl;
-	MoveCaOptions	: ARRAY [0..4] OF ST_MoveAbsoluteCAOptions;
+	XtsAxes			: ARRAY [1..NumOfAxes] OF XtsAxisControl;
+	MoveCaOptions	: ARRAY [1..NumOfAxes] OF ST_MoveAbsoluteCAOptions;
 	
 	i				: BYTE;
-	ForStateBool	: BOOL;
+	i2				: BYTE := 1;
+	i3				: BYTE;
+	
+	ForLoopBool		: BOOL;
 	State			: BYTE;
 	
+END_VAR
+VAR CONSTANT
+	NumOfAxes		: BYTE := 5;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -21,15 +27,8 @@ END_VAR
 
 XtsPU.CyclicUpdate(nXpu := 1);
 XtsCA.CyclicUpdate();
-FOR i := 0 TO 4 BY 1 DO
+FOR i := 1 TO NumOfAxes BY 1 DO
 	XtsAxes[i].CyclicUpdate();
-END_FOR
-
-
-
-// -------------------- Error Checking
-
-FOR i := 0 TO 4 BY 1 DO
 	XtsAxes[i].AutoErrorCheckAndReset();
 END_FOR
 
@@ -37,7 +36,7 @@ END_FOR
 
 // -------------------- Definitions
 
-FOR i := 0 TO 4 BY 1 DO
+FOR i := 1 TO NumOfAxes BY 1 DO
 	MoveCaOptions[i].AdditionalTurns := 0;
 	MoveCaOptions[i].PositionReferenceSystem := 0;
 	MoveCaOptions[i].DynamicsReferenceSystem := 0;
@@ -62,38 +61,27 @@ CASE State OF
 		END_IF
 	
 	1:	// Enable XTS mover axes
-		ForStateBool := TRUE;
-		FOR i := 0 TO 4 BY 1 DO
+		ForLoopBool := TRUE;
+		FOR i := 1 TO NumOfAxes BY 1 DO
 			IF NOT(XtsAxes[i].PowerOn()) THEN
-				ForStateBool := FALSE;
+				ForLoopBool := FALSE;
 				EXIT;
 			END_IF
 		END_FOR
-		IF ForStateBool THEN
+		IF ForLoopBool THEN
 			State := 2;
 		END_IF
 		
-	2:	// Link XTS mover axes to XTS CA group
-		XtsCA.AddAxisToGroup(Axis := XtsAxes[0].AxisRef, AxisIdInGroup := 1);
-		XtsCA.AddAxisToGroup(Axis := XtsAxes[1].AxisRef, AxisIdInGroup := 2);
-		XtsCA.AddAxisToGroup(Axis := XtsAxes[2].AxisRef, AxisIdInGroup := 3);
-		XtsCA.AddAxisToGroup(Axis := XtsAxes[3].AxisRef, AxisIdInGroup := 4);
-		
-		IF XtsCA.AddAxisToGroup(Axis := XtsAxes[4].AxisRef, AxisIdInGroup := 5) THEN
-			STate := 3;
-		END_IF
-		
-//		ForStateBool := TRUE;
-//		FOR i := 0 TO 4 BY 1 DO
-//			IF NOT(XtsCA.AddAxisToGroup(Axis := XtsAxes[i].AxisRef, AxisIdInGroup := (i + 1))) THEN
-//				ForStateBool := FALSE;
-//				EXIT;
-//			END_IF
-//		END_FOR
-//		IF ForStateBool THEN
-//			State := 3;
-//		END_IF
-	
+	2:	// Link XTS mover axes to XTS CA group with incremental FOR loop
+		FOR i := i2 TO NumOfAxes BY 1 DO
+			IF XtsCA.AddAxisToGroup(Axis := XtsAxes[i].AxisRef, AxisIdInGroup := i) THEN
+				i2 := i2 + 1;
+				IF i2 = (NumOfAxes + 1) THEN
+					State := 3;
+				END_IF
+			END_IF
+		END_FOR
+
 	3: // Reset XTS CA group
 		IF XtsCA.ResetGroup() THEN
 			State := 4;
@@ -110,7 +98,6 @@ CASE State OF
 		
 	5:
 	
-	XtsAxes[1].MoveToPositionCA(position := 982, Velocity := 10, Options := MoveCaOptions[1]);
 	
 	
 	
@@ -122,32 +109,13 @@ END_CASE
 ]]></ST>
     </Implementation>
     <LineIds Name="XtsProgram">
-      <LineId Id="6" Count="15" />
-      <LineId Id="95" Count="1" />
-      <LineId Id="104" Count="0" />
-      <LineId Id="22" Count="0" />
-      <LineId Id="106" Count="0" />
-      <LineId Id="105" Count="0" />
-      <LineId Id="107" Count="0" />
-      <LineId Id="109" Count="2" />
-      <LineId Id="108" Count="0" />
-      <LineId Id="87" Count="2" />
-      <LineId Id="92" Count="2" />
-      <LineId Id="23" Count="3" />
-      <LineId Id="81" Count="1" />
-      <LineId Id="27" Count="18" />
-      <LineId Id="112" Count="0" />
-      <LineId Id="114" Count="0" />
-      <LineId Id="117" Count="1" />
-      <LineId Id="120" Count="3" />
-      <LineId Id="113" Count="0" />
-      <LineId Id="46" Count="19" />
-      <LineId Id="83" Count="3" />
-      <LineId Id="66" Count="0" />
-      <LineId Id="97" Count="1" />
-      <LineId Id="102" Count="0" />
-      <LineId Id="99" Count="2" />
-      <LineId Id="67" Count="4" />
+      <LineId Id="297" Count="0" />
+      <LineId Id="195" Count="5" />
+      <LineId Id="295" Count="0" />
+      <LineId Id="201" Count="0" />
+      <LineId Id="296" Count="0" />
+      <LineId Id="211" Count="65" />
+      <LineId Id="278" Count="7" />
       <LineId Id="5" Count="0" />
     </LineIds>
   </POU>

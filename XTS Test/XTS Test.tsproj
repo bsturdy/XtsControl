@@ -4746,7 +4746,7 @@ and will return to Group State Standby when the situation permits.
 		<ImageData Id="1016">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
 		<ImageData Id="1017">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000130b0000130b00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff8e8582b1a9a5ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc3bebbaea9a659565355524f5755525a58555e5b5862605d6764616d6a6772706d817f7cff00ffff00ffff00ffff00ff7e7875e1dddca1a09e7673707b7875817f7c817f7d85838084827f84817e827e7c52504d777472ff00ffff00ffff00ff4845428b89886a686b7c78769693909a979599959398969497969395918f73706e5e5b595e5b58acaaa7ff00ffff00ff45423f53504d94908dff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff7e7a7764625f989693ff00ffff00ff474441534f4ca5a19eff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff9793915f5c59989592ff00ffff00ff524e4b4d4a484f4d4aff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff565451625f5caaa8a5ff00ffff00ffff00ff464442504e4b55535054524f5653505755525755525655515554515a58555b5956726f6cff00ffff00ffff00ffff00ffff00ff5653504443404946434a48454c49474e4b484e4b49504e4b514e4b757370ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
 	</ImageDatas>
-	<Project ProjectGUID="{C73D1C06-0058-4A27-A2CC-BBB899C6935F}" TargetNetId="5.127.5.164.1.1" Target64Bit="true" ShowHideConfigurations="#x6">
+	<Project ProjectGUID="{C73D1C06-0058-4A27-A2CC-BBB899C6935F}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
 			<Settings MaxCpus="4" NonWinCpus="2">
 				<Cpu/>
@@ -4755,37 +4755,37 @@ and will return to Group State Standby when the situation permits.
 			</Settings>
 			<Licenses>
 				<Target>
-					<ManualSelect>{C2F58FAE-EB3E-4252-A3D4-E912569E6EFC}</ManualSelect>
-					<ManualSelect>{342C16A8-A110-474E-99D1-26DF22353503}</ManualSelect>
 					<ManualSelect>{6DFE338D-A25E-4F4B-A02A-2E93F21C1763}</ManualSelect>
-					<ManualSelect>{A15FA260-08A3-4DCD-93E9-5F22F7D234ED}</ManualSelect>
+					<ManualSelect>{342C16A8-A110-474E-99D1-26DF22353503}</ManualSelect>
+					<ManualSelect>{C2F58FAE-EB3E-4252-A3D4-E912569E6EFC}</ManualSelect>
 					<ManualSelect>{57BD9670-089D-434A-85CF-90A857EE0EFF}</ManualSelect>
-					<ManualSelect>{34E7B37F-BCDF-4169-BDE0-5EDE77BD1CD3}</ManualSelect>
-					<ManualSelect>{EDABAF2B-31BD-44EA-812D-3BEA277A1355}</ManualSelect>
+					<ManualSelect>{A15FA260-08A3-4DCD-93E9-5F22F7D234ED}</ManualSelect>
 					<ManualSelect>{6C4B2C28-7A9E-41AD-B5FE-6D61422A73D6}</ManualSelect>
+					<ManualSelect>{EDABAF2B-31BD-44EA-812D-3BEA277A1355}</ManualSelect>
+					<ManualSelect>{34E7B37F-BCDF-4169-BDE0-5EDE77BD1CD3}</ManualSelect>
 					<ManualSelect>{B56E7280-5DD4-4AB8-8075-075DD69C1C3D}</ManualSelect>
-					<ManualSelect>{4207A273-D64C-4314-BDC9-4D7933161B91}</ManualSelect>
-					<ManualSelect>{6560E068-08E6-4CE9-BFC8-B47975C26686}</ManualSelect>
 					<ManualSelect>{BF78CFC7-2E63-42C3-8C07-BB6C346BFB8B}</ManualSelect>
-					<ManualSelect>{C13CAEC7-1F41-4491-935E-FF6254005C74}</ManualSelect>
+					<ManualSelect>{6560E068-08E6-4CE9-BFC8-B47975C26686}</ManualSelect>
+					<ManualSelect>{4207A273-D64C-4314-BDC9-4D7933161B91}</ManualSelect>
 					<ManualSelect>{18FCE643-3C14-4527-A934-A9042FF9E7DE}</ManualSelect>
-					<ManualSelect>{7A0CF84A-530D-4F8B-8C98-33A57151C348}</ManualSelect>
+					<ManualSelect>{C13CAEC7-1F41-4491-935E-FF6254005C74}</ManualSelect>
 					<ManualSelect>{A6DA2335-6B5A-4627-8824-0B8D5E3E73C5}</ManualSelect>
-					<ManualSelect>{7637A32E-299D-4A54-9201-DA676B288A41}</ManualSelect>
+					<ManualSelect>{7A0CF84A-530D-4F8B-8C98-33A57151C348}</ManualSelect>
 					<ManualSelect>{0874FC73-9646-40A4-942D-F8C71CB228AE}</ManualSelect>
-					<ManualSelect>{C362DA3A-1771-4019-9AF9-F39972E4A76D}</ManualSelect>
+					<ManualSelect>{7637A32E-299D-4A54-9201-DA676B288A41}</ManualSelect>
 					<ManualSelect>{9AA6BD77-2143-4739-8C48-B36DEAAA1790}</ManualSelect>
-					<ManualSelect>{1293A494-551F-4DB7-86DB-E11F826C9DD9}</ManualSelect>
+					<ManualSelect>{C362DA3A-1771-4019-9AF9-F39972E4A76D}</ManualSelect>
 					<ManualSelect>{EC7969FF-C0D8-41A5-9693-92BFB866A89E}</ManualSelect>
-					<ManualSelect>{6952449D-F68C-49A2-ADE4-8639D85B33A4}</ManualSelect>
-					<ManualSelect>{2F2AA838-26BB-4435-83FD-B4EB6CBB0C6C}</ManualSelect>
+					<ManualSelect>{1293A494-551F-4DB7-86DB-E11F826C9DD9}</ManualSelect>
 					<ManualSelect>{D3BAA5E2-D7DF-46FC-B537-C52A686A73FF}</ManualSelect>
-					<ManualSelect>{D6854388-0494-4832-9169-8003C437CBA5}</ManualSelect>
+					<ManualSelect>{2F2AA838-26BB-4435-83FD-B4EB6CBB0C6C}</ManualSelect>
+					<ManualSelect>{6952449D-F68C-49A2-ADE4-8639D85B33A4}</ManualSelect>
 					<ManualSelect>{FBEA583E-F05B-406A-BD9F-2BFA59244888}</ManualSelect>
-					<ManualSelect>{352C9D05-CA12-4E54-B55A-575B64624E9C}</ManualSelect>
-					<ManualSelect>{6F53AC28-F6A2-47FE-89A6-F2AB8FE337D2}</ManualSelect>
-					<ManualSelect>{5F80BDB9-D9AC-40A4-9C8A-62EE6295DE0F}</ManualSelect>
+					<ManualSelect>{D6854388-0494-4832-9169-8003C437CBA5}</ManualSelect>
 					<ManualSelect>{C0BF0BC1-CBED-4D55-86DC-0706BF289DCE}</ManualSelect>
+					<ManualSelect>{5F80BDB9-D9AC-40A4-9C8A-62EE6295DE0F}</ManualSelect>
+					<ManualSelect>{6F53AC28-F6A2-47FE-89A6-F2AB8FE337D2}</ManualSelect>
+					<ManualSelect>{352C9D05-CA12-4E54-B55A-575B64624E9C}</ManualSelect>
 				</Target>
 			</Licenses>
 			<Tasks>
@@ -6647,7 +6647,7 @@ and will return to Group State Standby when the situation permits.
 							</Value>
 							<Value>
 								<Name>OperationMode</Name>
-								<EnumText>Normal</EnumText>
+								<EnumText>Simulation</EnumText>
 							</Value>
 							<Value>
 								<Name>MoverType</Name>
@@ -43243,7 +43243,7 @@ and will return to Group State Standby when the situation permits.
 		</Motion>
 		<Plc>
 			<Project GUID="{55B42A87-7E62-46FB-841F-8B7C6977223F}" Name="PLC 1" PrjFilePath="PLC 1\PLC 1.plcproj" TmcFilePath="PLC 1\PLC 1.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="PLC 1\PLC 1.tmc" TmcHash="{34BF3D00-1726-D2AD-AE8E-773F7E897305}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="PLC 1\PLC 1.tmc" TmcHash="{4A4FE2F9-DE15-0375-8BF4-25EE3C81D10F}">
 					<Name>PLC 1 Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -43251,10 +43251,6 @@ and will return to Group State Standby when the situation permits.
 						<Var>
 							<Name>XtsProgram.XtsCA.AxisGroup.NcToPlc</Name>
 							<Type GUID="{467F4325-10DF-4BC1-88DD-E8240EB4F8E3}" Namespace="MC">CDT_MCTOPLC_GROUP</Type>
-						</Var>
-						<Var>
-							<Name>XtsProgram.XtsAxes[0].Axis.NcToPlc</Name>
-							<Type GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 						</Var>
 						<Var>
 							<Name>XtsProgram.XtsAxes[1].Axis.NcToPlc</Name>
@@ -43272,16 +43268,16 @@ and will return to Group State Standby when the situation permits.
 							<Name>XtsProgram.XtsAxes[4].Axis.NcToPlc</Name>
 							<Type GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
 						</Var>
+						<Var>
+							<Name>XtsProgram.XtsAxes[5].Axis.NcToPlc</Name>
+							<Type GUID="{25521FAA-EA5F-4C7F-8864-BBCCDACD2E98}" Namespace="MC">NCTOPLC_AXIS_REF</Type>
+						</Var>
 					</Vars>
 					<Vars VarGrpType="2" AreaNo="1">
 						<Name>PlcTask Outputs</Name>
 						<Var>
 							<Name>XtsProgram.XtsCA.AxisGroup.PlcToNc</Name>
 							<Type GUID="{0E2E3852-A98C-4AF3-81E2-209EE128940C}" Namespace="MC">CDT_PLCTOMC_GROUP</Type>
-						</Var>
-						<Var>
-							<Name>XtsProgram.XtsAxes[0].Axis.PlcToNc</Name>
-							<Type GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 						<Var>
 							<Name>XtsProgram.XtsAxes[1].Axis.PlcToNc</Name>
@@ -43297,6 +43293,10 @@ and will return to Group State Standby when the situation permits.
 						</Var>
 						<Var>
 							<Name>XtsProgram.XtsAxes[4].Axis.PlcToNc</Name>
+							<Type GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</Type>
+						</Var>
+						<Var>
+							<Name>XtsProgram.XtsAxes[5].Axis.PlcToNc</Name>
 							<Type GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</Type>
 						</Var>
 					</Vars>
@@ -43318,7 +43318,7 @@ and will return to Group State Standby when the situation permits.
 			</Project>
 		</Plc>
 		<Io>
-			<Device Id="1" DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="5.127.5.164.2.1" RemoteName="Device 1 (EtherCAT)" InfoImageId="2">
+			<Device Id="1" Disabled="true" DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="5.127.5.164.2.1" RemoteName="Device 1 (EtherCAT)" InfoImageId="2">
 				<Name>Device 1 (EtherCAT)</Name>
 				<AddressInfo>
 					<Ccat>
@@ -43416,7 +43416,7 @@ and will return to Group State Standby when the situation permits.
 				</Box>
 				<EtherCAT/>
 			</Device>
-			<Device Id="4" DevType="111" DevFlags="#x0003" AmsPort="28676" AmsNetId="5.127.5.164.5.1" RemoteName="Device 4 (EtherCAT)" InfoImageId="5">
+			<Device Id="4" Disabled="true" DevType="111" DevFlags="#x0003" AmsPort="28676" AmsNetId="5.127.5.164.5.1" RemoteName="Device 4 (EtherCAT)" InfoImageId="5">
 				<Name>Device 4 (EtherCAT)</Name>
 				<AddressInfo>
 					<Pnp>
@@ -45980,24 +45980,24 @@ and will return to Group State Standby when the situation permits.
 		</OwnerA>
 		<OwnerA Name="TIPC^PLC 1^PLC 1 Instance">
 			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 1">
-				<Link VarA="PlcTask Inputs^XtsProgram.XtsAxes[0].Axis.NcToPlc" VarB="Outputs^ToPlc"/>
-				<Link VarA="PlcTask Outputs^XtsProgram.XtsAxes[0].Axis.PlcToNc" VarB="Inputs^FromPlc"/>
-			</OwnerB>
-			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 2">
 				<Link VarA="PlcTask Inputs^XtsProgram.XtsAxes[1].Axis.NcToPlc" VarB="Outputs^ToPlc"/>
 				<Link VarA="PlcTask Outputs^XtsProgram.XtsAxes[1].Axis.PlcToNc" VarB="Inputs^FromPlc"/>
 			</OwnerB>
-			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 3">
+			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 2">
 				<Link VarA="PlcTask Inputs^XtsProgram.XtsAxes[2].Axis.NcToPlc" VarB="Outputs^ToPlc"/>
 				<Link VarA="PlcTask Outputs^XtsProgram.XtsAxes[2].Axis.PlcToNc" VarB="Inputs^FromPlc"/>
 			</OwnerB>
-			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 4">
+			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 3">
 				<Link VarA="PlcTask Inputs^XtsProgram.XtsAxes[3].Axis.NcToPlc" VarB="Outputs^ToPlc"/>
 				<Link VarA="PlcTask Outputs^XtsProgram.XtsAxes[3].Axis.PlcToNc" VarB="Inputs^FromPlc"/>
 			</OwnerB>
-			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 5">
+			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 4">
 				<Link VarA="PlcTask Inputs^XtsProgram.XtsAxes[4].Axis.NcToPlc" VarB="Outputs^ToPlc"/>
 				<Link VarA="PlcTask Outputs^XtsProgram.XtsAxes[4].Axis.PlcToNc" VarB="Inputs^FromPlc"/>
+			</OwnerB>
+			<OwnerB Name="TINC^NC-Task 1^Axes^Mover Axis 5">
+				<Link VarA="PlcTask Inputs^XtsProgram.XtsAxes[5].Axis.NcToPlc" VarB="Outputs^ToPlc"/>
+				<Link VarA="PlcTask Outputs^XtsProgram.XtsAxes[5].Axis.PlcToNc" VarB="Inputs^FromPlc"/>
 			</OwnerB>
 			<OwnerB Name="TINC^NC-Task 1^Objects^Group1 (CA Group)">
 				<Link VarA="PlcTask Inputs^XtsProgram.XtsCA.AxisGroup.NcToPlc" VarB="Group Outputs^ToPLC"/>

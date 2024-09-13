@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
 	<LicenseInfo>
-		<SystemId>{1ACF6031-3383-21F9-41B0-9574006713F6}</SystemId>
-		<IssueTime>2024-09-11T09:32:00</IssueTime>
-		<ExpireTime>2024-09-19T00:00:00</ExpireTime>
-		<LicenseKey>a465e5fd236a35d30a487dde3badd2c627607d25466eb1138016e8ab4668047d3126ab1216523e49f61d50a0c738372567b402408c71c686ee3b26782c033280654c4b28043f0c82904a00bd1b0551e5c85d835a9b670b7c33716282ef79bfa1d05bba6bffe7634ae87aaae571a530930b11018145dc93d08d17f16e2a303fdac14de35b14f2ab198a8a3028d14ff11c80e50e078c7eb7f3d43bb9fc8ab86bfbc86703428b2717df4de978d9e2888e8fda57945656231ccb94ec8e81619eeb9a84732d9fad65b986cc6d1f55677e99a0f3522dd510e3577f14ff9650f13ebd6f365b42f18569e9a22a4f9369f7c6c94f68789b2b83333dd1050b8c942bcaa0b4</LicenseKey>
+		<SystemId>{CE15FC4D-A5F4-DD12-AD00-CB78CC5A88C9}</SystemId>
+		<IssueTime>2024-09-13T09:37:00</IssueTime>
+		<ExpireTime>2024-09-21T00:00:00</ExpireTime>
+		<LicenseKey>fafe99573422fcdd205904654bd2387bd7f35205cb4be11fc67238ea2633ddc89cc91d71549965cb13c5c732e1271c806142a96c841c025d2b8d9b81a6b5c1f9dbafa1e12ab8b6026f9cfcd4623d9b713e3d00b7375531e3fe158eb4d6a61bc5c6c2eca507cfab6c2aa5641e489e626ce9c6a03b1553b03e78f774038adae5a1d8c1b17d3f2ef9dfa3754f566496009a76c78f01d0bcc0b5d969f1ebcf6665ed7ead56eeec176772031b2302777d079ece9cf3d3785bbd96aab08e58d38887a35035b62b091a14af935f279c8e09e2f5cd03f45d5fe9d66e94d231be37d692a94a9094d14016df8ea5887e709a4030891c9d12ae741bb8300ee8fba4e853a6cd</LicenseKey>
 		<License>
 			<LicenseId>{4C256767-E6E6-4AF5-BD68-9F7ABAD0C200}</LicenseId>
 			<Name>TC3 ADS</Name>
@@ -90,19 +90,14 @@
 			<OrderNo>TF5890</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{342C16A8-A110-474E-99D1-26DF22353503}</LicenseId>
-			<Name>TC3 CNC Cutting Plus</Name>
-			<OrderNo>TF5290</OrderNo>
-		</License>
-		<License>
 			<LicenseId>{6DFE338D-A25E-4F4B-A02A-2E93F21C1763}</LicenseId>
 			<Name>TC3 Motion-Control-XFC</Name>
 			<OrderNo>TF5065</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{A15FA260-08A3-4DCD-93E9-5F22F7D234ED}</LicenseId>
-			<Name>TC3 Motion Pick-and-Place</Name>
-			<OrderNo>TF5420</OrderNo>
+			<LicenseId>{342C16A8-A110-474E-99D1-26DF22353503}</LicenseId>
+			<Name>TC3 CNC Cutting Plus</Name>
+			<OrderNo>TF5290</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{BF78CFC7-2E63-42C3-8C07-BB6C346BFB8B}</LicenseId>
@@ -110,9 +105,14 @@
 			<OrderNo>TF5010</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{34E7B37F-BCDF-4169-BDE0-5EDE77BD1CD3}</LicenseId>
-			<Name>TC3 CNC Virtual NCK Basis</Name>
-			<OrderNo>TF5270</OrderNo>
+			<LicenseId>{A15FA260-08A3-4DCD-93E9-5F22F7D234ED}</LicenseId>
+			<Name>TC3 Motion Pick-and-Place</Name>
+			<OrderNo>TF5420</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{6C4B2C28-7A9E-41AD-B5FE-6D61422A73D6}</LicenseId>
+			<Name>TC3 NC Camming</Name>
+			<OrderNo>TF5050</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{B56E7280-5DD4-4AB8-8075-075DD69C1C3D}</LicenseId>
@@ -130,19 +130,19 @@
 			<OrderNo>TF5112</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{6C4B2C28-7A9E-41AD-B5FE-6D61422A73D6}</LicenseId>
-			<Name>TC3 NC Camming</Name>
-			<OrderNo>TF5050</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{4207A273-D64C-4314-BDC9-4D7933161B91}</LicenseId>
-			<Name>TC3 Digital Cam Server</Name>
-			<OrderNo>TF5800</OrderNo>
+			<LicenseId>{34E7B37F-BCDF-4169-BDE0-5EDE77BD1CD3}</LicenseId>
+			<Name>TC3 CNC Virtual NCK Basis</Name>
+			<OrderNo>TF5270</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{6560E068-08E6-4CE9-BFC8-B47975C26686}</LicenseId>
 			<Name>TC3 CNC Axes Pack</Name>
 			<OrderNo>TF5220</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{4207A273-D64C-4314-BDC9-4D7933161B91}</LicenseId>
+			<Name>TC3 Digital Cam Server</Name>
+			<OrderNo>TF5800</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{18FCE643-3C14-4527-A934-A9042FF9E7DE}</LicenseId>
@@ -155,14 +155,14 @@
 			<OrderNo>TF5810</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{7637A32E-299D-4A54-9201-DA676B288A41}</LicenseId>
-			<Name>TC3 CNC Volumetric Compensation</Name>
-			<OrderNo>TF5280</OrderNo>
-		</License>
-		<License>
 			<LicenseId>{0874FC73-9646-40A4-942D-F8C71CB228AE}</LicenseId>
 			<Name>TC3 CNC HSC</Name>
 			<OrderNo>TF5250</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{7637A32E-299D-4A54-9201-DA676B288A41}</LicenseId>
+			<Name>TC3 CNC Volumetric Compensation</Name>
+			<OrderNo>TF5280</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{9AA6BD77-2143-4739-8C48-B36DEAAA1790}</LicenseId>
@@ -170,24 +170,14 @@
 			<OrderNo>TF5130</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{1293A494-551F-4DB7-86DB-E11F826C9DD9}</LicenseId>
-			<Name>TC3 Line Control</Name>
-			<OrderNo>TF5820</OrderNo>
-		</License>
-		<License>
 			<LicenseId>{EC7969FF-C0D8-41A5-9693-92BFB866A89E}</LicenseId>
 			<Name>TC3 CNC Kinematic Optimization</Name>
 			<OrderNo>TF5245</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{6952449D-F68C-49A2-ADE4-8639D85B33A4}</LicenseId>
-			<Name>TC3 Modbus-TCP</Name>
-			<OrderNo>TF6250</OrderNo>
-		</License>
-		<License>
-			<LicenseId>{2F2AA838-26BB-4435-83FD-B4EB6CBB0C6C}</LicenseId>
-			<Name>TC3 CNC Trafo</Name>
-			<OrderNo>TF5240</OrderNo>
+			<LicenseId>{1293A494-551F-4DB7-86DB-E11F826C9DD9}</LicenseId>
+			<Name>TC3 Line Control</Name>
+			<OrderNo>TF5820</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{D3BAA5E2-D7DF-46FC-B537-C52A686A73FF}</LicenseId>
@@ -195,9 +185,14 @@
 			<OrderNo>TF5060</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{D6854388-0494-4832-9169-8003C437CBA5}</LicenseId>
-			<Name>TC3 Robotics mxAutomation</Name>
-			<OrderNo>TF5120</OrderNo>
+			<LicenseId>{2F2AA838-26BB-4435-83FD-B4EB6CBB0C6C}</LicenseId>
+			<Name>TC3 CNC Trafo</Name>
+			<OrderNo>TF5240</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{6952449D-F68C-49A2-ADE4-8639D85B33A4}</LicenseId>
+			<Name>TC3 Modbus-TCP</Name>
+			<OrderNo>TF6250</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{FBEA583E-F05B-406A-BD9F-2BFA59244888}</LicenseId>
@@ -205,14 +200,19 @@
 			<OrderNo>TF5055</OrderNo>
 		</License>
 		<License>
-			<LicenseId>{352C9D05-CA12-4E54-B55A-575B64624E9C}</LicenseId>
-			<Name>TC3 CNC Virtual NCK Options</Name>
-			<OrderNo>TF5271</OrderNo>
+			<LicenseId>{D6854388-0494-4832-9169-8003C437CBA5}</LicenseId>
+			<Name>TC3 Robotics mxAutomation</Name>
+			<OrderNo>TF5120</OrderNo>
 		</License>
 		<License>
 			<LicenseId>{6F53AC28-F6A2-47FE-89A6-F2AB8FE337D2}</LicenseId>
 			<Name>TC3 CNC Measurement</Name>
 			<OrderNo>TF5225</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{352C9D05-CA12-4E54-B55A-575B64624E9C}</LicenseId>
+			<Name>TC3 CNC Virtual NCK Options</Name>
+			<OrderNo>TF5271</OrderNo>
 		</License>
 	</LicenseInfo>
 </TcLicenseInfo>
